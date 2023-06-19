@@ -1,0 +1,59 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.Hyperlinks{
+    background-color: #002626;
+    padding: 15px;
+    height: 70px;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+.Hyperlinks ul{
+    padding: 20px;
+    text-align: left;
+    
+}
+
+.Hyperlinks ul li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+
+}
+
+.Hyperlinks ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.Hyperlinks ul li a:hover{
+    text-decoration: underline;
+}
+
+
+.Social-Media-Icons-twitter{
+    position: relative;
+    bottom: 40px;
+    left: 560px;
+}
+
+.Social-Media-Icons-twitter a:hover{
+    padding-left: 10px;
+}
+
+.NameOfCompany{
+    position: absolute;
+    left: 700px;
+    top: 35px;
+    font-family: monospace;
+    color: cornsilk;
+    background-color:teal;
+    border-radius: 10px;
+    
+}

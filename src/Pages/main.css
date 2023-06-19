@@ -1,0 +1,231 @@
+*{
+    padding: 0px;
+    margin: 0px;
+     
+}
+body::-webkit-scrollbar{
+    display: none;
+  }
+
+.Main-folder{
+    height: 500px;
+}
+
+button{
+    padding: 10px;
+    background-color:deepskyblue;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 3px 4px 4px;
+
+}
+
+.Infor-about-transport{
+    height: 600px;
+    background-color: aliceblue;
+    
+
+}
+
+P{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p1{
+    font-family: "Ysabeau";
+    font-size: 20px;
+    position: relative;
+    top: 80px;
+}
+h2{
+    font-family: "Caveat";
+
+}
+#first-folder{
+    position: relative;
+    top: 100px;
+    
+}
+
+h1{
+    font-size: 80px;
+    
+}
+p{
+    font-size: 30px;
+    
+    
+}
+.Services{
+    background-color:rgb(207, 213, 218);
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    font-family: "Ysabeau";
+
+    
+}
+
+.Images-Details{
+    position: relative;
+    top: 80px;
+}
+#move-pic{
+    position: relative;
+    left: 230px;
+}
+
+.Package1, .Package2, .Package3{
+    padding: 10px;
+    font-family: "Ysabeau";
+}
+
+.Package1 #firstpicture{
+    position: relative;
+    left: 200px;
+    bottom: 35px;
+}
+
+.Package2 #secondpicture{
+    position: relative;
+    left: 350px;
+    bottom: 35px;
+}
+
+.Package3 #thirdpicture{
+    position: relative;
+    left: 235px;
+    bottom: 35px;
+}
+
+.Package1 h4{
+    font-size: xx-large;
+    
+}
+.Package1 p5{
+    font-size: x-large;
+}
+
+.Package2 h4{
+    font-size: xx-large;
+    
+}
+.Package2 p5{
+    font-size: x-large;
+}
+.Package3 h4{
+    font-size: xx-large;
+    
+}
+.Package3 p5{
+    font-size: x-large;
+}
+
+.Contact-us{
+
+    height: 450px;
+    background-color: aliceblue;
+
+}
+
+
+/* contact us  */
+
+.contact-cover{
+    height: 300px;
+        
+}
+
+.condetails{
+    position: relative;
+    top: 45px;
+    }
+
+/* footer */
+
+.footer{
+    background-color: #002626;
+    height: 100px;
+}
+
+
+/* media queries */
+
+@media only screen and (max-width: 600px) {
+
+    .Main-folder{
+        height: 600px;
+    }
+
+    #first-folder{
+        position: relative;
+        top: 10px;
+        color: white;
+        
+    }
+
+    .Details{
+        position: relative;
+        bottom: 60px;
+        font-weight: bolder;
+        
+    }
+
+    .Infor-about-transport{
+        height: 450px;
+        background-color: red;
+        
+    }
+
+    .Images-Details{
+        position: relative;
+        display:grid
+        
+    }
+
+    .Services{
+        background-color:rgb(207, 213, 218);
+        height: 600px;
+        display: grid;
+        justify-content: space-between;
+        padding: 50px;
+        font-family: "Ysabeau";
+        position: relative;
+        top: 500px;
+    
+        
+    }
+
+    .contact-cover{
+        height: 150px;
+        
+       position: relative;
+        top: 500px;
+            
+    }
+
+    .condetails{
+        position: relative;
+        top: 45px;
+        display: none;
+        }
+
+    .Package1, .Package2, .Package3{
+        position: relative;
+        bottom: 20px;
+    }
+
+    #secondpicture{
+        position: relative;
+        display: none;
+        background-color: blueviolet;
+    }
+
+    
+
+    
+
+   
+  }
+
